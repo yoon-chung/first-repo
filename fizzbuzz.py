@@ -1,4 +1,7 @@
+# 구분선(<<<===>>> 은 반드시 삭제!)
 for i in range(3, 18+1):
+    if i % 15 == 0:
+        print('fizzbuzz')
     if i % 3 == 0:
         print('fizz')
     elif i % 5 == 0:
